@@ -49,6 +49,11 @@
               </ul>
             </li>
             <li><a href="#contact">Contact</a></li>
+
+            <li><a href="{{ url('login') }}" class="text-danger font-weight-bold">
+              Login <i class="bi bi-person"></i>
+            </a></li>
+            
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>

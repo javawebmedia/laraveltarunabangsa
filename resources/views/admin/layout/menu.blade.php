@@ -46,7 +46,7 @@
                 <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-person-fill-lock"></i>
                   <p>
-                    Pengguna Sistem
+                    Master Data
                     <i class="nav-arrow bi bi-chevron-right"></i>
                   </p>
                 </a>
@@ -58,15 +58,15 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="{{ url('admin/akses-level' )}}" class="nav-link">
+                    <a href="{{ url('admin/pintu-parkir' )}}" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
-                      <p>Level Hak Akses</p>
+                      <p>Pintu Parkir</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="{{ url('admin/menu') }}" class="nav-link">
+                    <a href="{{ url('admin/jenis-kendaraan') }}" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
-                      <p>Menu dan Sub Menu</p>
+                      <p>Jenis Kendaraan</p>
                     </a>
                   </li>
                 </ul>

@@ -7,6 +7,7 @@ use App\Http\Controllers\LatihanController;
 use App\Http\Controllers\TestingController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\Admin\DasborController;
+use App\Http\Controllers\Admin\UserController;
 // end panggil controller
 
 // Route::get('/', function () {
@@ -36,4 +37,10 @@ Route::post('proses-ganti-password', [LoginController::class, 'prosesGantiPasswo
 Route::prefix('admin')->group(function() {
     // dasbor
     Route::get('dasbor', [DasborController::class, 'index']);
+    // user
+    Route::get('user', [UserController::class, 'index']);
+    Route::post('user/proses-tambah', [UserController::class, 'prosesTambah']);
+    Route::get('user/edit/{id}', [UserController::class, 'edit']);
+    Route::post('user/proses-edit', [UserController::class, 'prosesEdit']);
+    Route::get('user/delete/{id}', [UserController::class, 'delete']);
 });

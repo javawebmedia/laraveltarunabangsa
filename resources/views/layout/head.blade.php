@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - CoreBiz Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $description }}">
+  <meta name="keywords" content="{{ $keywords }}">
 
   <!-- Favicons -->
   <link href="{{ asset('assets/template') }}/assets/img/favicon.png" rel="icon">
